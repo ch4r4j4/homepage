@@ -8,12 +8,14 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
   
-    --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d9c;
-    --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    background-color: #1f1f1f; 
+
+    --primary-text-color: #f0f0f0;
+    --secondary-text-color: #999; 
+    --durability-text-color: #666; 
+    --icon-color: #999;
+    --border-color: #333; 
+    --text-decoration-color: #ff6f61; 
   }
   
   .container {
@@ -37,7 +39,7 @@
   .resume {
     margin: 50px auto;
     border: 1px solid #f5f5f5;
-    box-shadow: 1px 1px 7px 7px #f5f5f5;
+    box-shadow: 1px 1px 7px 7px #e79435;
     padding: 30px 0;
     max-width: 900px;
   }
@@ -98,7 +100,6 @@
   color: var(--secondary-text-color);
   text-decoration: none;
   display: flex;
-  justify-content: start;
 }
 
 .contact-info__item:not(:last-child) {
@@ -123,8 +124,8 @@
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -133,6 +134,7 @@
 .intro {
     display: flex;
     justify-content: start;
+    padding-top: 2rem;
   }
   
   .intro__icon-wrapper {
@@ -165,6 +167,13 @@
   .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+  }
+
+  .skills__logo {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   .experiences {
