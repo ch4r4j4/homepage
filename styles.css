@@ -132,6 +132,7 @@
 .intro {
     display: flex;
     justify-content: start;
+    padding-top: 2rem;
   }
   
   .intro__icon-wrapper {
@@ -164,6 +165,13 @@
   .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+  }
+
+  .skills__logo {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   .experiences {
